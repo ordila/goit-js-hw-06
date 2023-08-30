@@ -26,7 +26,7 @@ button {
 .gallery {
   display: flex;
 }
-.li_item {
+.item {
   width: 33%;
 }
 img {

@@ -29,4 +29,4 @@ function calculator() {
     counter.textContent = counterValue;
   });
 }
-// calculator();
+calculator();

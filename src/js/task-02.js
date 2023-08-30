@@ -30,12 +30,13 @@ const ingredients = [
 ];
 function addLiItem() {
   const list = document.querySelector('#ingredients');
+  const arr = [];
   ingredients.forEach(el => {
     const addLi = document.createElement('li');
     addLi.classList.add('item');
     addLi.textContent = el;
-
-    list.append(addLi);
+    arr.push(addLi);
   });
+  list.append(...arr);
 }
 addLiItem();

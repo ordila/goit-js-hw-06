@@ -39,13 +39,12 @@ const images = [
 
 function getGallery() {
   const list = document.querySelector('.gallery');
-  images.forEach(el => {
-    const url = el.url;
-    const alt = el.alt;
-    const examples = ` <li class = 'li_item'>
-    <img src = ${url} alt = ${alt} class = 'img_for_gallery'> 
-    </li> `;
-    list.insertAdjacentHTML('beforeend', examples);
-  });
+  const gallery = images
+    .map(image => {
+      return `<li class="item"> <img src="${image.url}" alt="${image.alt}" > </li>`;
+    })
+    .join('');
+
+  list.insertAdjacentElement = gallery;
 }
 getGallery();
