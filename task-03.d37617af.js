@@ -18,6 +18,6 @@
 //     alt: "Group of Horses Running",
 //   },
 // ];
-const e=[{url:"https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",alt:"White and Black Long Fur Cat"},{url:"https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",alt:"Orange and White Koi Fish Near Yellow Koi Fish"},{url:"https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",alt:"Group of Horses Running"}];!function(){let s=document.querySelector(".gallery"),t=e.map(e=>`<li class="item"> <img src="${e.url}" alt="${e.alt}" > </li>`).join("");s.insertAdjacentElement=t}();//# sourceMappingURL=task-03.8daa75f5.js.map
+const e=[{url:"https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",alt:"White and Black Long Fur Cat"},{url:"https://images.pexels.com/photos/213399/pexels-photo-213399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",alt:"Orange and White Koi Fish Near Yellow Koi Fish"},{url:"https://images.pexels.com/photos/219943/pexels-photo-219943.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",alt:"Group of Horses Running"}];!function(){let s=document.querySelector(".gallery"),t=e.map(e=>`<li class="item"> <img src="${e.url}" alt="${e.alt}" > </li>`).join("");s.insertAdjacentHTML("afterbegin",t)}();//# sourceMappingURL=task-03.d37617af.js.map
 
-//# sourceMappingURL=task-03.8daa75f5.js.map
+//# sourceMappingURL=task-03.d37617af.js.map
