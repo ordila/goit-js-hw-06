@@ -45,6 +45,6 @@ function getGallery() {
     })
     .join('');
 
-  list.insertAdjacentElement = gallery;
+  list.insertAdjacentHTML('afterbegin', gallery);
 }
 getGallery();
