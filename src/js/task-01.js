@@ -29,4 +29,4 @@ function getInfoCategory() {
   });
 }
 
-// getInfoCategory();
+getInfoCategory();
